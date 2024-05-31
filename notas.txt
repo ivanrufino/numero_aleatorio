@@ -29,5 +29,7 @@ git push -u origin main
 git pull origin main
 
 
+//Resolvendo conflito
+
 // Adicionando colaborador
 feito pelo github -> para que outras pessoas possas contribuir no repositorio
