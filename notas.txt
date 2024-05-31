@@ -1,8 +1,21 @@
-Iniciando repositorio, seguinto tutorial do github
+// Iniciando repositorio, seguinto tutorial do github
 git init
 git add .
-git commit -m "First commit"
+git commit -m "Projeto inicial"
 git branch -M main
-git remote add origin git@github.com:ivanrufino/numero_aleatorio.git
+// uma dessas duas opções
+git remote add origin git@github.com:ivanrufino/numero_aleatorio.git // precisa gerar a chave
+git remote add origin https://github.com/ivanrufino/numero_aleatorio.git // nao precisa gerar chave
+
 git push -u origin main
 
+
+Clonando Projeto
+git clone https://github.com/ivanrufino/numero_aleatorio.git
+git clone git@github.com:ivanrufino/numero_aleatorio.git // precisa gerar a chave
+
+
+// Informando o status dos arquivos
+git status
+
+// Subindo alterações
