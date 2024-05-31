@@ -28,8 +28,6 @@ git push -u origin main
 //Baixar novos commit repo local
 git pull origin main
 
-
-//Resolvendo conflito
 Alterar o arquivo verificando quais informações devem estar no arquivo
 realizar um novo commit
 
