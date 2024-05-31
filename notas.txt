@@ -34,6 +34,10 @@ realizar um novo commit
 //Reverter commit
 pegar o id do commit com git log
 git revert a2236a54d11d611332d2f66182f5d9c21368a8bd
+
+//resetando um commit
+git reset --hard a2236a54d11d611332d2f66182f
+
 // Adicionando colaborador
 feito pelo github -> para que outras pessoas possas contribuir no repositorio
  
