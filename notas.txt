@@ -35,8 +35,15 @@ realizar um novo commit
 pegar o id do commit com git log
 git revert a2236a54d11d611332d2f66182f5d9c21368a8bd
 
-//resetando um commit
+//resetando um commit - passar o id do log anterior - preferencialmente quando ainda estiver local
 git reset --hard a2236a54d11d611332d2f66182f
+
+
+//Alterando dados de um commit
+git commit --amend -m "Ignorando notas.txt no git"
+
+
+
 
 // Adicionando colaborador
 feito pelo github -> para que outras pessoas possas contribuir no repositorio
